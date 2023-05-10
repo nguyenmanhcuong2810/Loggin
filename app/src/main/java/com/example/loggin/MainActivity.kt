@@ -38,8 +38,8 @@ class MainActivity : AppCompatActivity() {
             logIn.setTextColor(resources.getColor(R.color.textColor, null))
         }
 
-        signIn.setOnClickListener {
-            startActivity(Intent(this@MainActivity, NewActivity::class.java))
-        }
+//        signIn.setOnClickListener {
+//           startActivity(Intent(this@MainActivity, NewActivity::class.java))
+//        }
     }
 }
